@@ -1,0 +1,139 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: black;
+  
+}
+
+a, a:hover {
+  color: #000000;
+}
+
+ul {
+  list-style: none;
+}
+
+figure img {
+  width: 100%;
+  height: auto;
+}
+
+figure {
+  margin-bottom: 30px;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+div > h1, .site-name {
+  font-size: 2.5rem;
+}
+
+nav > p {
+  cursor: pointer;
+}
+.pill-black, .pill-white {
+  border: 0.5px solid;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.pill-black {
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
+footer {
+  margin-top: 60px;
+}
+
+footer div {
+  display: flex;
+  align-items: center;
+}
+
+/* Customizations of Bootstrap classes */
+
+header .row {
+  display: flex;
+  align-items: center;
+}
+
+.col-sm-4 p {
+  margin: 25px 20px 15px;
+  min-width: 60px;
+  padding: 1px;
+}
+
+section.container .row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background-color: yellow;
+
+}
+
+.jum {
+ 
+  background-attachment:  cover;
+}
+
+.jum h2 {
+  color: #F06529;
+  font-weight: 600;
+  padding: 10px 35px;
+  
+}
+
+.jum h3 {
+  /*color: #FFFFFF;*/
+  font-weight: 100;
+}
+
+.jum p{
+  text-align: center;
+}
+.btn-primary {
+  color: #2e6da4;
+  background-color: #FFFFFF;
+}
+
+.col-sm-1 img {
+  min-width: 32px;
+  min-height: 33px;
+}
+
+/* Bootstrap overrides */
+
+.navbar, .navbar-default {
+  margin: 0;
+  background-color: #1153bf;
+  border: none;
+  background-color: #022b6d;
+}
+
+.btn-default,
+.btn-default:hover,
+.btn-default:active {
+  border: none;
+  background: #FFFFFF;
+}
+
+.dropdown-menu {
+  left: 22px;
+}
+
+/* Bootstrap Overrides : modal */
+
+.modal h3, .modal-body h4 {
+  text-align: center;
+}
+
+/*.jumbo-1 {
+  margin-bottom: 0px;
+  color: white;
+  text-shadow: black 0.01em 0.1em 0.1em
+  background-image: url(../images/taxi-bus-city-urban-584392.jpeg);
+}*/
